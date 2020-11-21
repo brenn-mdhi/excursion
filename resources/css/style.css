@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+h1 {
+  font-family: 'Times New Roman';
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  font-family: 'Times New Roman';
+  font-size: 40px;
+  color: white;
+}
+
+p {
+  font-family: 'Times New Roman';
+  font-size: 20px;
+  color: white;
+}
+
+.link {
+  font-style: italic;
+  color: blue;
+}
+
+#video_link {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#dopepic {
+  flex-grow: 2;
+}
